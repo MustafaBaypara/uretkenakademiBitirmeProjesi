@@ -1,8 +1,27 @@
-# React + Vite
+# uretkenakademiBitirmeProjesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Proje bize sunulan veriler ve kullanıcının en çok ihtiyacına yarayacak şeyleri karşılayacak şekilde tasarlandı.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Acil durum:  
+Deprem doğal afet veya etrafta kimsenin olmadığı durumlarda kullanılabilecek önemli bir konum bildirme özelliği.  
+Acil bildiri yayınlayarak olduğu konumdan bütün kullanıcıların görebileceği bir acil durum paylaşımı yapar, açıklama ve fotoğraf ile durumu belirtebilir.
+  
+# Nöbetçi Eczaneler:  
+Bursa'da aktif ve sürekli yenilenen nöbetçi eczanelerin konumunu belirler.  
+  
+# Otobüs Takip:  
+Kullanıcı Hızlı bir şekilde otobüsünü takip edebilmesi için ekleyip kaydetme özelliği ile otobüs aramaya gerek kalmayacak ve uygulama yavaşlığı olmadan site üzerinden otobüsünü takip edebilecek.  
+  
+# Otoparklar:  
+Aracınla park edecek yer bulamıyorsan en yakındaki konumları gösteren bir özellik.  
+
+# Elektrikli araç Şarj İstasyonları  
+Kullanıcı konumuna yakın olan şarj istasyonlarını görebilir.   
+  
+# Wifi Noktaları:  
+Kullanıcı konumuna yakın olan Wifi Noktalarını görebilir ve ücretsiz kullanabilir.  
+
+# Spor tesisleri ve Tarihi mekanlar:  
+Kullanıcının yakınındaki veya merak ettiği Bursa'daki tarihi mekanları ve spor tesislerini görebilir.  
+
