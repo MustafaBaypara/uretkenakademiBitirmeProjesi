@@ -1,0 +1,10 @@
+.mapDiv {
+    margin: auto;
+}
+
+.mapContainer {
+    height: "400px";
+    width: "400px";
+    margin: "auto";
+    margin-top: "5%";
+}
