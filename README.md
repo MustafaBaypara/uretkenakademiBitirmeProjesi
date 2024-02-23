@@ -26,3 +26,5 @@ Kullanıcı konumuna yakın olan Wifi Noktalarını görebilir ve ücretsiz kull
 # Spor tesisleri ve Tarihi mekanlar:  
 Kullanıcının yakınındaki veya merak ettiği Bursa'daki tarihi mekanları ve spor tesislerini görebilir.   
   
+[Vercel Linki](https://uretkenakademi-bitirme-projesi.vercel.app/)   
+https://uretkenakademi-bitirme-projesi.vercel.app/  
