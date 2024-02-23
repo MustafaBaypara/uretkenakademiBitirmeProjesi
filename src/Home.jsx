@@ -19,7 +19,7 @@ function Home() {
         <header>
         <Navbar bg="dark" data-bs-theme="dark" >
         <Container>
-          <Navbar.Brand href="/uretkenakademiBitirmeProjesi" style={{ fontSize: '30px', textAlign: "center",  marginLeft: "auto", fontFamily: "Russo One"}}>BursaBul</Navbar.Brand>
+          <Navbar.Brand href="/" style={{ fontSize: '30px', textAlign: "center",  marginLeft: "auto", fontFamily: "Russo One"}}>BursaBul</Navbar.Brand>
           <Nav className="me-auto">
           </Nav>
         </Container>
@@ -35,7 +35,7 @@ function Home() {
             <Route path="/Bus" element={<BusApp />} />
             <Route path="/otopark" element={<OtoparkLocation />} />
             <Route path="/tarih" element={<TarihiLocation />} />
-        <Route path="/uretkenakademiBitirmeProjesi" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         </Routes>
       </main>
     </div>
