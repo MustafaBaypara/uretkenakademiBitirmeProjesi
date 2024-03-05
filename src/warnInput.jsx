@@ -48,7 +48,7 @@ const FileUploadComponent = () => {
             "Time": time.toLocaleTimeString(),
             "l_x": location[0],
             "l_y": location[1],
-            "file": file.name ? `https://80.253.246.249:58731/photos/${timeData}${file.name}` : ""
+            "file": file.name ? `https://apichikitabot.net:58731/photos/${timeData}${file.name}` : ""
         }
         const url = 'https://80.253.246.249:58731/uploadjson';
         await fetch(url, {
@@ -64,7 +64,7 @@ const FileUploadComponent = () => {
         formData.append('file', file, timeData + file.name);
 
         try {
-            const response = await fetch('https://80.253.246.249:58731/upload', {
+            const response = await fetch('https://apichikitabot.net:58731/upload', {
                 method: 'POST',
                 body: formData,
             });
