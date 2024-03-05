@@ -4,7 +4,7 @@ function useEczaneData() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('https://80.253.246.249:58731/eczaneApi')
+    fetch('https://api.chikitabot.net:58731/eczaneApi')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
