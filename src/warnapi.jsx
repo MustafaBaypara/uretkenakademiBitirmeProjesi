@@ -4,7 +4,7 @@ function useWarnData() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('https://apichikitabot.net:58731/apiGET')
+    fetch('https://api.chikitabot.net:58731/apiGET')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
